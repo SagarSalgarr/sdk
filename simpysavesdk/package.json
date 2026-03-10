@@ -1,0 +1,34 @@
+{
+  "name": "@nippon/simplysave-voice-sdk",
+  "version": "1.0.0",
+  "description": "Voice AI SDK for Simply Save app by Nippon India Mutual Fund",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "voice",
+    "simply-save",
+    "nippon"
+  ],
+  "author": "Nippon India Mutual Fund",
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "react-native": ">=0.72.0"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.9.3"
+  },
+  "react-native": {
+    "android": {
+      "sourceDir": "./android",
+      "packageImportPath": "com.nippon.simplysave.rn.SimplySaveVoicePackage"
+    },
+    "ios": {}
+  }
+}

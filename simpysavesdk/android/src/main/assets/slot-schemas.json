@@ -1,0 +1,19 @@
+{
+  "CREATE_GULLAK_SIP": [
+    { "name": "gullak_type", "required": true, "type": "string" },
+    { "name": "amount", "required": true, "type": "number" },
+    { "name": "frequency", "required": false, "type": "string" }
+  ],
+  "INVEST_LUMPSUM": [
+    { "name": "gullak_type", "required": true, "type": "string" },
+    { "name": "amount", "required": true, "type": "number" }
+  ],
+  "CHECK_BALANCE": [],
+  "NOMINEE": [],
+  "NOTIFICATION": [],
+  "ECS_MANDATE": [],
+  "BRIGHT_BHAVISHYA": [
+    { "name": "amount", "required": false, "type": "number" }
+  ],
+  "FALLBACK": []
+}

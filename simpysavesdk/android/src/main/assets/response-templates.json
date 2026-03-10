@@ -1,0 +1,17 @@
+{
+  "CREATE_GULLAK_SIP_completion": "Setting up your SIP of {amount} in {gullak_type}.",
+  "INVEST_LUMPSUM_completion": "Setting up investment of ₹{amount} in {gullak_type}.",
+  "CHECK_BALANCE_completion": "Fetching your portfolio balance.",
+  "NOMINEE_completion": "Opening nominee management.",
+  "NOTIFICATION_completion": "Opening notifications.",
+  "ECS_MANDATE_completion": "Opening ECS mandate setup.",
+  "BRIGHT_BHAVISHYA_completion": "Opening Bright Bhavishya for child education.",
+  "FALLBACK_completion": "I didn't understand. Could you rephrase?",
+  "INVEST_LUMPSUM_clarify_amount": "How much would you like to invest?",
+  "INVEST_LUMPSUM_clarify_gullak_type": "Which Gullak would you like to invest in?",
+  "CREATE_GULLAK_SIP_clarify_amount": "How much would you like to invest?",
+  "CREATE_GULLAK_SIP_clarify_gullak_type": "Which Gullak would you like to set up?",
+  "clarify_generic": "Could you provide more details?",
+  "INVEST_LUMPSUM_confirm": "Did you mean to invest in {gullak_type}?",
+  "CREATE_GULLAK_SIP_confirm": "Did you mean to set up SIP in {gullak_type}?"
+}
