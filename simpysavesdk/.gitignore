@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Python
+model-pipeline/.venv/
+*.pyc
+__pycache__/
+.venv/
+
+# Model artifacts (large; others re-download via scripts)
+model-pipeline/models/
+model-pipeline/release/
+
+# Build outputs
+android/build/
+android/.gradle/
+*.apk
+lib/
+*.tsbuildinfo
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Env / secrets (don’t commit tokens)
+.env
+.env.local
